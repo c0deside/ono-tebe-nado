@@ -267,10 +267,8 @@
 }
 
 .footer__menu-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-size: 18px;
+  text-align: center;
   text-transform: lowercase;
   list-style: none;
 }
@@ -282,6 +280,7 @@
 
 .footer__social-list {
   display: flex;
+  flex-wrap: wrap;
   justify-self: end;
   gap: 48px;
   list-style: none;
